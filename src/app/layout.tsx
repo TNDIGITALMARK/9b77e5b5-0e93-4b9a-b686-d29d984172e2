@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Bikini Bottom Lore Encyclopedia",
+  description: "Explore the deep mysteries and hidden lore of SpongeBob SquarePants and Bikini Bottom",
 };
 
 export default function RootLayout({
@@ -41,7 +41,7 @@ export default function RootLayout({
             <ThemeProvider
               attribute="class"
               defaultTheme="light"
-              enableSystem
+              enableSystem={false}
               disableTransitionOnChange
             >
               <TooltipProvider>
